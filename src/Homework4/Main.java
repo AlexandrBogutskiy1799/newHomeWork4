@@ -16,6 +16,6 @@ public class Main {
         User user5 = new User(1005, "Tolya", 15000, 6, "Velyka kyshenya", 500, chinaBank1);
         User user6 = new User(1006, "Olya", 6300, 1, "Silpo", 2500, chinaBank2);
 
-
+        System.out.println(user6);
     }
 }
