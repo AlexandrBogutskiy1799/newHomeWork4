@@ -43,4 +43,13 @@ public class CollegeStudent extends Student {
     public void setId(long id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "CollegeStudent{" +
+                "collegeName='" + collegeName + '\'' +
+                ", rating=" + rating +
+                ", id=" + id +
+                '}';
+    }
 }

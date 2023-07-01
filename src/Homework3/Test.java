@@ -20,5 +20,8 @@ public class Test {
         CollegeStudent student11 = new CollegeStudent("Sally","Mason",5,"Bellfist",12,25678);
         CollegeStudent student12 = new CollegeStudent("Rikky","Brown",5);
         SpecialStudent student13 = new SpecialStudent("algel","Yellou",5,"Oxford",15,145,222234);
+
+        System.out.println(student3);
     }
+
 }
